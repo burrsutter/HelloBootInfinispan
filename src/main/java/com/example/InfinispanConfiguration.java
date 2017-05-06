@@ -28,7 +28,7 @@ public class InfinispanConfiguration {
 //               .transport().defaultTransport().addProperty("configurationFile", "default-configs/default-jgroups-kubernetes.xml")
 
                   // Or use, multicast stack to simplify local testing:
-                  .transport().defaultTransport().addProperty("configurationFile", "default-configs/default-jgroups-udp.xml")
+                  .transport().defaultTransport().addProperty("configurationFile", "jgroups-config.xml")
                .build();
    }
 
